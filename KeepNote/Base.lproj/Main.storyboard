@@ -141,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GNN-wm-kBK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2598.5507246376815" y="265.84821428571428"/>
+            <point key="canvasLocation" x="5391" y="250"/>
         </scene>
         <!--SignUP View Controller-->
         <scene sceneID="JNd-uP-phv">
@@ -200,6 +200,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1rj-xV-nvp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1802.8985507246377" y="-240.40178571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wzt-cx-pL5">
+            <objects>
+                <viewController id="fOk-6H-BX7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eh0-O4-LMK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="wTh-gk-slt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wVs-PI-gvV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2713" y="148"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PSp-zt-lfl">
