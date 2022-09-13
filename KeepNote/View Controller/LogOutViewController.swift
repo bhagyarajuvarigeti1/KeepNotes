@@ -16,7 +16,7 @@ class LogOutViewController: UIViewController {
     }
     
     @IBAction func logOutBtnPressed(_ sender: Any) {
-        let selectionVc = storyboard?.instantiateViewController(withIdentifier: "MainViewController") as! ViewController
+        let selectionVc = storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
         present(selectionVc, animated: true, completion: nil)
     }
     

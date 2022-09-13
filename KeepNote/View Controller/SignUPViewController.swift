@@ -9,6 +9,9 @@ import UIKit
 
 class SignUPViewController: UIViewController {
 
+    @IBOutlet weak var nameTxtField: UITextField!
+    @IBOutlet weak var EmailIdTxtField: UITextField!
+    @IBOutlet weak var PasswordTxtField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +19,10 @@ class SignUPViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func CreateAccountBtn(_ sender: Any) {
+        let SelectionVC = storyboard?.instantiateViewController(withIdentifier: "LogOutViewController") as! LogOutViewController
+        present(SelectionVC, animated: true, completion: nil)
     }
-    */
+    
 
 }

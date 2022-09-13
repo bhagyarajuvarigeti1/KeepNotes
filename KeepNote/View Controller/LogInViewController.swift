@@ -9,6 +9,8 @@ import UIKit
 
 class LogInViewController: UIViewController {
 
+    @IBOutlet weak var PasswordTxtField: UITextField!
+    @IBOutlet weak var EmailIdTxtField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +18,10 @@ class LogInViewController: UIViewController {
     }
     
 
+    @IBAction func SignInBtn(_ sender: Any) {
+        let selectionVc = storyboard?.instantiateViewController(withIdentifier: "LogOutViewController") as! LogOutViewController
+        present(selectionVc, animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 

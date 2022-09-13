@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046270E428CDD3BB00B1E66B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 046270E328CDD3BA00B1E66B /* GoogleService-Info.plist */; };
 		04B98C2F28CC2850002A7A5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B98C2E28CC2850002A7A5E /* AppDelegate.swift */; };
 		04B98C3128CC2850002A7A5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B98C3028CC2850002A7A5E /* SceneDelegate.swift */; };
 		04B98C3328CC2850002A7A5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B98C3228CC2850002A7A5E /* ViewController.swift */; };
@@ -16,9 +17,11 @@
 		04B98C4428CC2A37002A7A5E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B98C4328CC2A37002A7A5E /* LogInViewController.swift */; };
 		04B98C4628CC2A45002A7A5E /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B98C4528CC2A45002A7A5E /* SignUPViewController.swift */; };
 		04B98C4828CC2D9E002A7A5E /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B98C4728CC2D9E002A7A5E /* LogOutViewController.swift */; };
+		16466A6ABCF9FA2CB9808515 /* Pods_KeepNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2550595021B47EC8E7F299 /* Pods_KeepNote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046270E328CDD3BA00B1E66B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04B98C2B28CC2850002A7A5E /* KeepNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B98C2E28CC2850002A7A5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B98C3028CC2850002A7A5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,9 @@
 		04B98C4328CC2A37002A7A5E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		04B98C4528CC2A45002A7A5E /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
 		04B98C4728CC2D9E002A7A5E /* LogOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		24FF68A3441CEFFE3BF9F6BD /* Pods-KeepNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepNote.release.xcconfig"; path = "Target Support Files/Pods-KeepNote/Pods-KeepNote.release.xcconfig"; sourceTree = "<group>"; };
+		54B7F5C17C3ADB5B5D18772A /* Pods-KeepNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepNote.debug.xcconfig"; path = "Target Support Files/Pods-KeepNote/Pods-KeepNote.debug.xcconfig"; sourceTree = "<group>"; };
+		8E2550595021B47EC8E7F299 /* Pods_KeepNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16466A6ABCF9FA2CB9808515 /* Pods_KeepNote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +55,8 @@
 			children = (
 				04B98C2D28CC2850002A7A5E /* KeepNote */,
 				04B98C2C28CC2850002A7A5E /* Products */,
+				789EB316B32B35FF9147A5B0 /* Pods */,
+				91ED1E2E8A030CCDD0735C36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +77,7 @@
 				04B98C3428CC2850002A7A5E /* Main.storyboard */,
 				04B98C3728CC2857002A7A5E /* Assets.xcassets */,
 				04B98C3928CC2857002A7A5E /* LaunchScreen.storyboard */,
+				046270E328CDD3BA00B1E66B /* GoogleService-Info.plist */,
 				04B98C3C28CC2857002A7A5E /* Info.plist */,
 			);
 			path = KeepNote;
@@ -84,6 +94,23 @@
 			path = "View Controller";
 			sourceTree = "<group>";
 		};
+		789EB316B32B35FF9147A5B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54B7F5C17C3ADB5B5D18772A /* Pods-KeepNote.debug.xcconfig */,
+				24FF68A3441CEFFE3BF9F6BD /* Pods-KeepNote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		91ED1E2E8A030CCDD0735C36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E2550595021B47EC8E7F299 /* Pods_KeepNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B98C3F28CC2857002A7A5E /* Build configuration list for PBXNativeTarget "KeepNote" */;
 			buildPhases = (
+				0089CCCD0E042989748EA347 /* [CP] Check Pods Manifest.lock */,
 				04B98C2728CC2850002A7A5E /* Sources */,
 				04B98C2828CC2850002A7A5E /* Frameworks */,
 				04B98C2928CC2850002A7A5E /* Resources */,
+				BB7356ABE37AA5A8FE065122 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +157,9 @@
 				Base,
 			);
 			mainGroup = 04B98C2228CC2850002A7A5E;
+			packageReferences = (
+				0499823528CDDF0A009CF58B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 04B98C2C28CC2850002A7A5E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,12 +175,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B98C3B28CC2857002A7A5E /* LaunchScreen.storyboard in Resources */,
+				046270E428CDD3BB00B1E66B /* GoogleService-Info.plist in Resources */,
 				04B98C3828CC2857002A7A5E /* Assets.xcassets in Resources */,
 				04B98C3628CC2850002A7A5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0089CCCD0E042989748EA347 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeepNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB7356ABE37AA5A8FE065122 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeepNote/Pods-KeepNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeepNote/Pods-KeepNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeepNote/Pods-KeepNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04B98C2728CC2850002A7A5E /* Sources */ = {
@@ -302,6 +377,7 @@
 		};
 		04B98C4028CC2857002A7A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B7F5C17C3ADB5B5D18772A /* Pods-KeepNote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -329,6 +405,7 @@
 		};
 		04B98C4128CC2857002A7A5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FF68A3441CEFFE3BF9F6BD /* Pods-KeepNote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -376,6 +453,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0499823528CDDF0A009CF58B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 04B98C2328CC2850002A7A5E /* Project object */;
 }

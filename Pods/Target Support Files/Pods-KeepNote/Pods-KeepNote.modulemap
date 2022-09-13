@@ -1,0 +1,6 @@
+framework module Pods_KeepNote {
+  umbrella header "Pods-KeepNote-umbrella.h"
+
+  export *
+  module * { export * }
+}
