@@ -1,3 +1,4 @@
+
 //
 //  LogInViewController.swift
 //  KeepNote
@@ -6,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseFirestore
 
 class LogInViewController: UIViewController {
 
@@ -13,8 +15,7 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var EmailIdTxtField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
     
 

@@ -602,6 +602,14 @@ PODS:
   - BoringSSL-GRPC/Implementation (0.0.24):
     - BoringSSL-GRPC/Interface (= 0.0.24)
   - BoringSSL-GRPC/Interface (0.0.24)
+  - Firebase/Auth (9.5.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 9.5.0)
+  - Firebase/CoreOnly (9.5.0):
+    - FirebaseCore (= 9.5.0)
+  - Firebase/Firestore (9.5.0):
+    - Firebase/CoreOnly
+    - FirebaseFirestore (~> 9.5.0)
   - FirebaseAnalytics (9.5.0):
     - FirebaseAnalytics/AdIdSupport (= 9.5.0)
     - FirebaseCore (~> 9.0)
@@ -763,16 +771,19 @@ PODS:
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
   - PromisesObjC (2.1.1)
+  - SideMenu (6.5.0)
 
 DEPENDENCIES:
+  - Firebase/Auth
+  - Firebase/Firestore
   - FirebaseAnalytics
-  - FirebaseAuth
-  - FirebaseFirestore
+  - SideMenu
 
 SPEC REPOS:
   trunk:
     - abseil
     - BoringSSL-GRPC
+    - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
     - FirebaseCore
@@ -790,10 +801,12 @@ SPEC REPOS:
     - Libuv-gRPC
     - nanopb
     - PromisesObjC
+    - SideMenu
 
 SPEC CHECKSUMS:
   abseil: ebe5b5529fb05d93a8bdb7951607be08b7fa71bc
   BoringSSL-GRPC: 3175b25143e648463a56daeaaa499c6cb86dad33
+  Firebase: 800f16f07af493d98d017446a315c27af0552f41
   FirebaseAnalytics: 1b60984a408320dda637306f3f733699ef8473d7
   FirebaseAuth: 741918f1fa62ed23246a509279f91d42d79a713f
   FirebaseCore: 25c0400b670fd1e2f2104349cd3b5dcce8d9418f
@@ -811,7 +824,8 @@ SPEC CHECKSUMS:
   Libuv-gRPC: 55e51798e14ef436ad9bc45d12d43b77b49df378
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
 
-PODFILE CHECKSUM: a716f412af35d4a84c06ebb24aa796c1b8a87692
+PODFILE CHECKSUM: d909bf626e65a68d71173ee505dcd6e935be65f7
 
 COCOAPODS: 1.11.3
